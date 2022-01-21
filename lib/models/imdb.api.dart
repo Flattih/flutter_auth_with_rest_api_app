@@ -10,7 +10,7 @@ class ImdbApi {
         Uri.https('imdb8.p.rapidapi.com', '/title/find', {"q": "game of thr"});
     final response = await http.get(uri, headers: {
       "x-rapidapi-host": "imdb8.p.rapidapi.com",
-      "x-rapidapi-key": "66af0daf9cmsh4a5b2a26c82176dp1e86aejsn53ee0cf6a2b5",
+      "x-rapidapi-key": "temporarily disabled",
       "useQueryString": "true",
     });
     Map data = jsonDecode(response.body);
